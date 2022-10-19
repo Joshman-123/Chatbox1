@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#swag{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20em 20em;
+    background: url(./bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.glass{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(255,255,255, 0.1);
+    padding:50px;
+    color:#fff;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    border:2px solid transparent;
+    background-clip: padding-box;
+    box-shadow:10px 10px 10px rgba(45,55,68,0.5);
+    line-height: 1.5;
+    transform: translateY(-5%);
+    transition: transform 0.5s;
+}
+.glass{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(255,255,255, 0.1);
+    padding:50px;
+    color:rgb(122,82,82);
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    border:2px solid transparent;
+    background-clip: padding-box;
+    box-shadow:10px 10px 10px rgba(45,55,68,0.5);
+    line-height: 1.5;
+    transform: translateY(-5%);
+    transition: transform 0.5s;
+    font-size: 1.5rem;
+}
+.glass h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.glass p{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+}
+.input{
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.input input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+    padding-top: 0;
+    outline: indigo;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
